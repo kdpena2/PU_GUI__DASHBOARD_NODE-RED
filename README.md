@@ -243,6 +243,87 @@ componentes para usar en nuestros diseños.  </p>
  
 *******imagen********
 
+***Calculadora científica Raspberry y Python***
+
+<p>   Utilizamos las librerias RPi.GPIO y math para poder manipular y visualizar las entradas GPIO y realizar operaciones tanto simples como complejas respectivamente. </p> 
+<p> Usamos GPIO.input(x) == GPIO.HIGH: donde x viene a ser el Pin a manipular, únicamente utilizaremos 6  pins debido a la generación de menús y submenús. </p> 
+ 
+*******imagen********
+
+<p> Para realizar los submenús utilizamos funciones en donde ingresamos texto que nos indique lo que se va realizar y a continuación las operaciones que permitan tener un valor de retorno.</p> 
+ 
+*******imagen********
+
+<p> Utilizamos cada operación respectivamente con la librería math la cual nos simplificará el proceso. </p> 
+ 
+**Funciones de potencia y logarítmicas**
+
+<li><p>math.exp(x): Devuelve ex.</li></p>
+<lli><p>math.log(x, [base]): Devuelve el logaritmo neperiano de x. Si se incluye el segundo argumento, devuelve el logaritmo de x en la base indicada. </li></p>
+<li><p>math.pow(x, y): Devuelve xy.</li></p>
+<li><p>math.sqrt(x): Devuelve la raíz cuadrada de x. </li></p>
+
+**Funciones trigonométricas y de conversión de ángulos**
+
+<li><p>math.cos(x): Devuelve el coseno de x. 
+<li><p>math.sin(x): Devuelve el seno de x.</li></p>
+<li><p>math.tan(x): Devuelve la tangente de x.</li></p>
+<li><p>math.degrees(x): Convierte un ángulo de grados sexagesimales a radianes. </li></p>
+<li><p>math.radians(x): Convierte un ángulo de radianes a grados sexagesimales.</li></p>
+<p> Llamamos a los resultados para poder mostrarlos y los aglomeramos dentro de un while, que tiene la funcionalidad de preguntar si deseamos realizar otra operación para permitirnos regresar al primer menú. </p> 
+
+*******imagen********
+
+<p>El proceso se repite con cada método de nuestro programa.  </p> 
+ 
+****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
+
+*******imagen********
+
+****APORTACIONES****
+
+<p><li>La principal aportación que tiene nuestro programa en el dashboard de node-RED, es que todos los nodos van a realizar una determinada función en la interfaz, es así que el nodo numeric con valores asignados en paso de cinco va a manipular al primer gauge, al igual que el switch que está configurado de 0 a 100 y el primer slider. A más de esto, el segundo gauge fue conectado por un dropdown con salida de tipo number que contiene valores establecidos, y un nodo colour picker con el cual también es posible manipular nodos que necesiten valores de ingreso, para una mejor visualización se lo conectó a un gráfico y este va cambiando de valores conforme al número hexadecimal de cada color. </li></p>
+<p><li>Se implementó el uso del nodo range, el cual asigna un valor numérico a un rango diferente al de la entrada. Este nodo escalará linealmente el valor recibido. Por defecto, el resultado no está limitado al rango definido en el nodo. También el resultado nunca estará fuera del rango especificado. En su configuración de carga útil debe ser un número, en caso de no ser así será analizado y rechazado. En las salidas irá el valor asignado al nuevo rango.</li></p>
+ 
+****CONCLUSIONES****
+
+<p><li>Node-Red brinda una interfaz gráfica que se observa en pantalla como un dashboard , en el cual se podrá visualizar varias pestañas mediante una llamada a los nodos en diferentes grupos que a su vez se encuentra en subdivisiones creadas, al darnos esta posibilidad el usuario podrá interactuar con varias pestañas en un mismo tablero.</li></p>
+<p><li>La implementación de una interfaz gráfica basada en flujos brinda un ambiente más amigable para los desarrolladores en el aprendizaje de las nuevas tecnologías. Se debe promover esta metodología que permite al usuario observar de forma más detallada la interacción que existe entre software y hardware.</li></p>
+ 
+ 
+ 
+****RECOMENDACIONES****
+
+<p><li>Es recomendable conocer las librerías existentes en el programa a usar a fin de evitar que se realicen funciones innecesarias , mismas que ya pueden existir dentro del lenguaje de programación ;en este caso python cuenta con la librería math que nos ofrece una variedad de funciones que pueden emplearse en la solución a problemas de índole matemático.</li></p>
+<p><li> No olvidar las reglas sintácticas que tiene el lenguaje Python, ya que este se caracteriza por ser estricto en el caso de las indentaciones y las debidas puntuaciones. Conocer las palabras reservadas, los identificadores (los cuales determinan una variable, función, clase, módulo u objeto). Python también diferencia entre mayúsculas y minúsculas y no admite caracteres de puntuación como @, $ o %.</li></p>
+- <p><li>Se recomienda inicializar la entrada de pin en alto debido a que de otra forma no será seleccionado.</li></p>
+<p><li>En el caso del Dashboard de node-Red se recomienda conocer los nodos que lo contienen y cada uno de los parámetros de configuración de estos a fin de una mejor manipulación y resultados.</li></p>
+
+****CRONOGRAMA****
+
+*******imagen********
+
+
+****BIBLIOGRAFÍA****
+
+<p><li>S. Mischie, "On teaching Raspberry Pi for undergraduate university programmes," 2016 12th IEEE International Symposium on Electronics and Telecommunications (ISETC), Timisoara, 2016, pp. 149-153, doi: 10.1109/ISETC.2016.7781079.</li></p>
+<p><li>Lu, C. Y., Chen, F. H., Hsu, W. C., Yang, Y. Q., & Su, T. J. (2020). Constructing Home Monitoring System with Node-RED. Sensors and Materials, 32(5), 1701-1710.</li></p>
+<p><li>OpenJS Foundation. (s.f.). Node-red. Obtenido de Node-red: https://nodered.org</li></p>
+<p><li>OpenJS Foundation. (Julio de 2020). Node-RED. Obtenido de https://flows.nodered.org/node/node-red-dashboard</li></p>
+<p><li>Sum, P. E. (2017, 26 diciembre). ¿Qué es GPIO? - Control de GPIO con Python en Raspberry Pi. https://www.programoergosum.com. https://www.programoergosum.com/cursos-online/raspberry-pi/238-control-de-gpio-con-python-en-raspberry-pi/que-es-gpio</li></p>
+<p><li>Qué es la programacion orientada a objetos. (2019, 11 diciembre). Desarrollo Web. https://desarrolloweb.com/articulos/499.php</li></p>
+<p><li>LA LIBRERÍA MATH. (s. f.). InteractiveChaos. https://www.interactivechaos.com/manual/tutorial-de-python/la-libreria-math</li></p>
+<p><li>Challenger-Pérez, I., Díaz-Ricardo, Y., & Becerra-García, R. A. (2014). El lenguaje de programación Python. Ciencias Holguín, 20(2), 1-13.</li></p>
+ 
+ 
+***ANEXOS:***
+
+*******imagen********
+ 
+
+
+
+
 
 
 
