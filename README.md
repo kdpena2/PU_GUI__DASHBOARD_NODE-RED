@@ -188,11 +188,16 @@ componentes para usar en nuestros diseños.  </p>
 ****DIAGRAMAS****
 
 <p>Interfaz HMI (Interfaz Humano Máquina) </p>
+<p>El diagrama caso-uso se divide en dos partes : el lado del usuario y el lado de la computadora estableciendo relaciones entre estos.En el caso de dashboard se indica que las acciones del usuario corresponden a : elegir un número en el caso del nodo dropdown, manipular un slider, selección de opciones,etc.Estas acciones están conectados a otros nodos, en los cuales el computador procesará la información y mostrará valores en el tablero a través de gráficos </p>
+
 
 ![](https://github.com/kdpena2/PU_GUI__DASHBOARD_NODE-RED/blob/master/IMAGENES%20PU2/Imagen%208.png)
 
 
 <p>Diagrama de flujo de la aplicación “Calculadora” en Raspberry Pi.</p>
+
+<p> El codigo esta realizado a partir de submenús, es por eso, que en primer lugar se pregunta qué pin está activo dependiendo de esta respuesta se ejecutará uno de los 4 submenús principales, una vez seleccionado el pin activo, volverá a preguntar cuál de los pin está activo y se realizará la acción conforme el usuario desee, por ejemplo si selecciona el pin 3 eligira BÁSICA y si vuelve a seleccionar el pin 3 eligira SUMA en este apartado ingresara 2 valores que se sumarán correspondientemente, dependiendo del valor a escoger los valores a ingresar cambiarán.</p>
+
 
 ![](https://github.com/kdpena2/PU_GUI__DASHBOARD_NODE-RED/blob/master/IMAGENES%20PU2/Imagen%209.png)
 
