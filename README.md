@@ -265,11 +265,12 @@ componentes para usar en nuestros diseños.  </p>
 
 **Funciones trigonométricas y de conversión de ángulos**
 
-<li><p>math.cos(x): Devuelve el coseno de x. 
+<li><p>math.cos(x): Devuelve el coseno de x. </li></p>
 <li><p>math.sin(x): Devuelve el seno de x.</li></p>
 <li><p>math.tan(x): Devuelve la tangente de x.</li></p>
 <li><p>math.degrees(x): Convierte un ángulo de grados sexagesimales a radianes. </li></p>
 <li><p>math.radians(x): Convierte un ángulo de radianes a grados sexagesimales.</li></p>
+
 <p> Llamamos a los resultados para poder mostrarlos y los aglomeramos dentro de un while, que tiene la funcionalidad de preguntar si deseamos realizar otra operación para permitirnos regresar al primer menú. </p> 
 
 *******imagen********
