@@ -103,7 +103,7 @@ componentes para usar en nuestros diseños.  </p>
 <p>La programación orientada a objetos (POO) es una forma especial de programar, más cercana a cómo expresamos las cosas en la vida real que otros tipos de programación. </p>
 <p>En este paradigma se tienen distintos elementos que se describen a continuación: </p>
 
-*******imagen********
+*******imagen*******
 
  ***Clases*** 
  
@@ -173,6 +173,7 @@ componentes para usar en nuestros diseños.  </p>
 <p>import math</p>
 
 *******imagen********
+
 ***SOFTWARE***
 
 ***Plataforma:***
@@ -226,6 +227,23 @@ componentes para usar en nuestros diseños.  </p>
 
 *******imagen********
  
+<p>En la parte inferior al gauge encontramos el nodo dropdown que agrega un cuadro desplegable al panel, y en donde hemos colocado datos de tipo number, los cuales manipulan al gauge anterior. El nodo colour picker agrega un selector de color al tablero configurado con un formato  hexa y de forma circular, este también manipulará al gráfico anterior en caso de que coincida el número hexadecimal con los valores en los que se encuentra el rango.</p>
+
+*******imagen********
+
+***Etiqueta Third:***
+
+<p>Esta tercera etiqueta es más bien un anexo a la segunda ya que los nodos chart de tipo :</p>
+<p><li>Line chart(muestra valores de forma lineal )</li></p>
+<p><li>Pie chart(gráfico en forma circular )</li>
+<p><li>Bar chart (muestra valores a través de un gráfico de barras)</li>
+<p><li>Bar chart(H)(muestra valores de igual forma que el anterior con la diferencia que lo hace de forma horizontal)</li>
+<p>Están conectados a los deslizantes de la segunda etiqueta , dichos deslizantes permiten observar cómo los valores varían dependiendo de su manipulación en los gráficos .</p>
+ 
+ 
+*******imagen********
+
+
 
 
  
