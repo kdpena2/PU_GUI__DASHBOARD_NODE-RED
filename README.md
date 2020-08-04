@@ -258,18 +258,18 @@ componentes para usar en nuestros diseños.  </p>
  
 **Funciones de potencia y logarítmicas**
 
-<li><p>math.exp(x): Devuelve ex.</li></p>
-<lli><p>math.log(x, [base]): Devuelve el logaritmo neperiano de x. Si se incluye el segundo argumento, devuelve el logaritmo de x en la base indicada. </li></p>
-<li><p>math.pow(x, y): Devuelve xy.</li></p>
-<li><p>math.sqrt(x): Devuelve la raíz cuadrada de x. </li></p>
+<p><li>math.exp(x): Devuelve ex.</li></p>
+<p><li>math.log(x, [base]): Devuelve el logaritmo neperiano de x. Si se incluye el segundo argumento, devuelve el logaritmo de x en la base indicada. </li></p>
+<p><li>math.pow(x, y): Devuelve xy.</li></p>
+<p><li>math.sqrt(x): Devuelve la raíz cuadrada de x. </li></p>
 
 **Funciones trigonométricas y de conversión de ángulos**
 
-<li><p>math.cos(x): Devuelve el coseno de x. </li></p>
-<li><p>math.sin(x): Devuelve el seno de x.</li></p>
-<li><p>math.tan(x): Devuelve la tangente de x.</li></p>
-<li><p>math.degrees(x): Convierte un ángulo de grados sexagesimales a radianes. </li></p>
-<li><p>math.radians(x): Convierte un ángulo de radianes a grados sexagesimales.</li></p>
+<p><li>math.cos(x): Devuelve el coseno de x. </li></p>
+<p><li>math.sin(x): Devuelve el seno de x.</li></p>
+<p><li>math.tan(x): Devuelve la tangente de x.</li></p>
+<p><li>math.degrees(x): Convierte un ángulo de grados sexagesimales a radianes. </li></p>
+<p><li>math.radians(x): Convierte un ángulo de radianes a grados sexagesimales.</li></p>
 
 <p> Llamamos a los resultados para poder mostrarlos y los aglomeramos dentro de un while, que tiene la funcionalidad de preguntar si deseamos realizar otra operación para permitirnos regresar al primer menú. </p> 
 
