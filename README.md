@@ -56,7 +56,8 @@ Además cuenta con un dashboard o tablero de instrumentos que permite crear y vi
 ***Uso del panel de control Node-Red***
 <p>El diseño de la pantalla de la interfaz de usuario se puede controlar en la parte izquierda del tablero, donde se pueden encontrar los siguientes nodos: </p>
 
-*******imagen******
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 <p>Para que en un programa existan varias pestañas se debe llamar a los nodos en diferentes grupos, además para generar subdivisiones dentro de estos, se nombran en distintas etiquetas. Con esto se logra una mejor visualización.</p> 
 <p>Cada nodo del tablero tiene tres configuraciones importantes las cuales son:</p>
@@ -65,11 +66,12 @@ Además cuenta con un dashboard o tablero de instrumentos que permite crear y vi
 <p><li>Tooltip/ Información sobre herramientas: Se escribe una indicación al usuario, esta aparecerá al acercar el cursor al componente.</li></p>
 <p><li>Nombre : Nombre que aparecerá en el  trabajo de flujo.</li>
   
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 <p>En la parte derecha de la interfaz, podemos encontrar la organización de los grupos y sus respectivas etiquetas, con esto se puede cambiar el orden y elegir a nuestro gusto el widget que queremos visualizar  primero.</p>
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 ***Nodos más importantes en la dashboard:***
  
 <p><li>Button: Agrega un botón a la interfaz del usuario, el cual al ser presionado debe dar como resultado lo que se indique. Los datos que se van a devolver pueden ser de tipo string, number, boolean, JSON, buffer, timestamp, flow o global.</li></p>
@@ -95,7 +97,8 @@ Estos pines son digitales, lo que significa que sólo pueden tener dos estados, 
 <p>Existe otro método utilizado, y es la numeración de pines de Broadcom (BCM), el cual se refiere a los alfileres GPIO que están conectados directamente al SoC del Raspberry Pi. Básicamente son conexiones directas al cerebro de nuestra Pi para conectar sensores y
 componentes para usar en nuestros diseños.  </p>
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 **PROGRAMACIÓN ORIENTADA A OBJETOS**
 
@@ -103,7 +106,8 @@ componentes para usar en nuestros diseños.  </p>
 <p>La programación orientada a objetos (POO) es una forma especial de programar, más cercana a cómo expresamos las cosas en la vida real que otros tipos de programación. </p>
 <p>En este paradigma se tienen distintos elementos que se describen a continuación: </p>
 
-*******imagen*******
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
  ***Clases*** 
  
@@ -134,7 +138,8 @@ componentes para usar en nuestros diseños.  </p>
 
 <p>Python es un lenguaje de programación de alto nivel, interpretado y multipropósito, que en los últimos años ha tenido un auge considerable ya que constituye uno de los lenguajes más empleados en el desarrollo de software .Python puede ser utilizado en  diversas plataformas y sistemas operativos, entre los que se puede destacar los más populares, como Windows, Mac OS X y Linux . Este lenguaje nos permite trabajar en el paradigma de programación orientado a objetos ,siguiendo la estructura que se muestra en la imagen: </p> 
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 ****Librería Math*****
 
@@ -172,7 +177,7 @@ componentes para usar en nuestros diseños.  </p>
 <p>Para poder acceder y hacer uso de  esta librería, al iniciar el código debemos ingresar la siguiente línea:</p>
 <p>import math</p>
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 ***SOFTWARE***
 
@@ -184,20 +189,42 @@ componentes para usar en nuestros diseños.  </p>
 
 <p>Interfaz HMI (Interfaz Humano Máquina) </p>
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+
 <p>Diagrama de flujo de la aplicación “Calculadora” en Raspberry Pi.</p>
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 ****LISTA DE COMPONENTES****
 
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 ****MAPA DE VARIABLES****
 
-*******imagen********
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
 
@@ -207,29 +234,42 @@ componentes para usar en nuestros diseños.  </p>
 
 <p>En los botones 1,2,3 y 4 se muestran íconos que pueden ser presionados, estos tendrán su respectivo código y color asignado, es así que para mostrar el primer ícono se escribe fa-male, fa-female para el segundo, twitter para el tercero y fa-car en el cuarto. Al presionar cada uno de estos se mostrará un mensaje al usuario, el cual se logra conectándolos al nodo text.</p>
 
-*******imagen********
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 <p>A continuación se mostrará un gauge, el cual estará conectado a un slider para su manipulación,  una salida de texto que mostrará los valores en los que se encuentra y el nodo numeric el cual tiene una configuración de cinco en cinco para controlar al gráfico.</p>
 
-*******imagen********
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 <p>También en esta parte encontraremos los nodos dropdown y switch, en el dropdown se pueden escoger opciones dentro de una lista, en nuestro caso hemos seleccionado los tres tipos de datos que pueden mostrarse, los cuales son number, string y boolean. El uso del nodo switch se evidencia en el gráfico, este al ser presionado irá del 0 al 100%. </p>
 
-*******imagen********
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 ***Etiqueta Second:***
 
 <p>En este caso se visualizan tres  sliders que al ser manipulados por el usuario cada uno enviará datos a los gráficos de la tercera etiqueta.</p>
 
-*******imagen********
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 <p>Luego tenemos un gauge de tipo donut  conectado al tercer slider configurado con valores en un rango de :  0 como mínimo  y 100 como máximo ,por lo que tomará los valores correspondientes al movimiento que el usuario realice en el último slider.</p>
 
-*******imagen********
+
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
  
 <p>En la parte inferior al gauge encontramos el nodo dropdown que agrega un cuadro desplegable al panel, y en donde hemos colocado datos de tipo number, los cuales manipulan al gauge anterior. El nodo colour picker agrega un selector de color al tablero configurado con un formato  hexa y de forma circular, este también manipulará al gráfico anterior en caso de que coincida el número hexadecimal con los valores en los que se encuentra el rango.</p>
 
-*******imagen********
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
+
 
 ***Etiqueta Third:***
 
@@ -241,18 +281,18 @@ componentes para usar en nuestros diseños.  </p>
 <p>Están conectados a los deslizantes de la segunda etiqueta , dichos deslizantes permiten observar cómo los valores varían dependiendo de su manipulación en los gráficos .</p>
  
  
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 ***Calculadora científica Raspberry y Python***
 
 <p>   Utilizamos las librerias RPi.GPIO y math para poder manipular y visualizar las entradas GPIO y realizar operaciones tanto simples como complejas respectivamente. </p> 
 <p> Usamos GPIO.input(x) == GPIO.HIGH: donde x viene a ser el Pin a manipular, únicamente utilizaremos 6  pins debido a la generación de menús y submenús. </p> 
  
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 <p> Para realizar los submenús utilizamos funciones en donde ingresamos texto que nos indique lo que se va realizar y a continuación las operaciones que permitan tener un valor de retorno.</p> 
  
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 <p> Utilizamos cada operación respectivamente con la librería math la cual nos simplificará el proceso. </p> 
  
@@ -273,7 +313,7 @@ componentes para usar en nuestros diseños.  </p>
 
 <p> Llamamos a los resultados para poder mostrarlos y los aglomeramos dentro de un while, que tiene la funcionalidad de preguntar si deseamos realizar otra operación para permitirnos regresar al primer menú. </p> 
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 <p>El proceso se repite con cada método de nuestro programa.  </p> 
  
